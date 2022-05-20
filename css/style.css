@@ -1,0 +1,334 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+header {
+    text-align: center; 
+    background: linear-gradient(rgb(41, 48, 94), #fff);
+   
+}
+
+
+nav {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    background-color: rgb(117, 129, 167);
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-shadow: 5px 3px 20px #000;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 20px;
+}
+
+
+.imgname {
+    height: 300px;
+    background-image: url(/img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 45px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.textos {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(33, 53, 121);
+
+    /*.titulo {
+        text-shadow: 2px 2px 5px rgb(180, 48, 48);
+    }*/
+}
+
+.paragrafo {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 15px 0;
+}
+
+.textos span {
+    font-weight: bold;
+}
+
+#servicos {
+    background-image: url(/img/beneficios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+#servicos .itens {
+    margin: auto;
+    width: 500px;
+    height: 220px;
+    background: rgba(252, 244, 244, 0.418);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+#servicos .itens p {
+    text-align: center;
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(33, 53, 121);
+}
+
+#servicos .title-beneficios {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+#servicos ul {
+    text-align: center;
+}
+
+#servicos ul li {
+    margin: 12px 0px;
+    font-weight: 600;
+}
+
+#servicos ul li:hover {
+    padding: 5px;
+    transform: scale(1.8);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#horario-funcionamento {
+    margin: auto;
+}
+
+#horario-funcionamento .container {
+    padding: 30px 0px;
+    width: 500px;
+    margin: auto;
+}
+
+#horario-funcionamento table {
+    margin: auto;
+    border: 1px  #000;
+}
+
+#horario-funcionamento table th {
+    border: 1px solid #000;
+    padding: 8px 0px;
+    width: 130px;
+    font-weight: bold;
+    background-color: rgb(100, 149, 237);
+}
+
+#horario-funcionamento table td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+#video {
+    margin: 20px 0px;
+    padding: 50px;
+    background-image: url(/img/bkg-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background: linear-gradient(260deg,#fff 0%, rgb(41, 48, 94) 100%);
+}
+       
+footer .container {
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .midias a {
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+footer .midias a:hover {
+    transform: translateY(-15px);
+}
+
+footer .midias img {
+    width: 50px;
+}
+
+/*-.-.-.-.-.-.-.-  Produtos  -.-.-.-.-.-.-.-*/
+                                                                                                                            
+.produtos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.produtos .produto {
+    width: 250px;
+    border: 3px solid rgb(73, 107, 138);
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px 15px;
+}
+
+
+
+.produtos .produto:hover {
+    background-color: rgb(212, 212, 212);
+    font-weight: bold;
+    border-color: rgb(31, 31, 70);
+    cursor: pointer;
+}
+
+.produtos .produto:active {
+    border-color: aqua;
+}
+
+.produtos img:hover {
+    transition: .5s;
+    transform: scale(1.1) translateY(-5px);
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form input {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid rgb(117, 129, 167);
+}
+
+main form input:focus {
+    outline: none;
+    border: 2px dashed rgb(31, 31, 94);
+}
+
+main form label {
+    margin-top: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main form textarea {
+    border: 2px solid rgb(117, 129, 167);
+    border-radius: 5px;
+    width: 300px;
+}
+
+main form textarea:focus {
+    outline: none;
+    border: 2px dashed rgb(31, 31, 94);
+}
+
+main form button {
+    width: 300px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(117, 129, 167);
+    background-color: rgb(117, 129, 167);
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+main form button:hover {
+    border: 2px solid rgb(31, 31, 94);
+    background-color: rgb(31, 31, 94);
+    color: #fff;
+    box-shadow: 5px 3px 20px rgb(31, 31, 94);
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .textos {
+        width: unset;
+    }
+
+    .produtos {
+        flex-wrap: wrap;
+        align-content: center; 
+    }
+
+    .produto {
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:540px) {
+    nav {
+        flex-direction: column;
+        width: unset;
+        text-align: center;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    #servicos .itens {
+        width: unset;
+    }
+
+    #horario-funcionamento .container {
+        width: unset;
+    }
+
+    #video iframe {
+        width: 100%;
+    }
+
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer .midias {
+        padding-bottom: 25px;
+    }
+}
+
