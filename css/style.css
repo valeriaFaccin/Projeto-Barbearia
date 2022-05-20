@@ -1,3 +1,6 @@
+
+/*Arquivo CSS*/
+
 body {
     font-family: 'Rajdhani', sans-serif;
 }
@@ -5,7 +8,6 @@ body {
 header {
     text-align: center; 
     background: linear-gradient(rgb(41, 48, 94), #fff);
-   
 }
 
 
@@ -66,10 +68,6 @@ h2 {
     margin: 10px 0;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgb(33, 53, 121);
-
-    /*.titulo {
-        text-shadow: 2px 2px 5px rgb(180, 48, 48);
-    }*/
 }
 
 .paragrafo {
